@@ -5,8 +5,8 @@ import { Router, ActivatedRoute } from '@angular/router';
 @Injectable()
 export class APIService {
 
-  projectURL: string = 'http://192.168.15.187:8000';
-  // projectURL: string = 'http://13.126.11.145:9000';
+  // projectURL: string = 'http://192.168.15.187:8000';
+  projectURL: string = 'http://13.126.11.145:9000';
 
   userID: any;
 
